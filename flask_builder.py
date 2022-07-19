@@ -14,6 +14,7 @@ app.config.from_object('config')''')
 
 config = open('config.py', 'w')
 config.write('''DEBUG = True''')
+requirements = open('requirements.txt', 'x')
 os.mkdir('static')
 os.mkdir('templates')
 folder = os.listdir()
